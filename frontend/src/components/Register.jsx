@@ -13,7 +13,7 @@ export default function Register() {
     const submit = async (e) => {
         e.preventDefault();
         try {
-            await api.post("/api/auth/register", form);
+            await api.post("/auth/register", form);
             alert("Registered successfully");
             setForm({
                 name: "",
@@ -56,3 +56,4 @@ export default function Register() {
         </form>
     );
 }
+
