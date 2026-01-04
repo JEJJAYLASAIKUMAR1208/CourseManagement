@@ -9,6 +9,7 @@ A full-stack Courses Management Web Application built with **React (frontend)**,
 
 ## Admin Credentials
 Username: admin@test.com
+
 Password: admin123
 
 ---
