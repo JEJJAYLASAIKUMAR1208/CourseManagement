@@ -5,8 +5,7 @@ require("dotenv").config();
 const app = express();
 app.use(cors({
   origin: [
-        "https://courses-3-plsu.onrender.com",
-        "http://192.168.0.4:3000"// frontend URL
+        "https://coursemanagement-0fcn.onrender.com"
   ],
   credentials: true
 }));
@@ -17,3 +16,4 @@ app.use("/api/auth/login", require("./routes/auth/login"));
 app.use("/api/courses", require("./routes/courses"));
 
 module.exports = app;
+
